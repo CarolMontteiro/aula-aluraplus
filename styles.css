@@ -29,11 +29,21 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container_caixa {
+    margin: 0 6em;
 }
 
 .container_titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container_img {
+    margin: 16px 0 32px 0;
 }
 
 .container_botao {
@@ -43,6 +53,7 @@ body {
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+    margin-bottom: 16px;
 }
 
 .botao_secundario {
@@ -52,5 +63,30 @@ body {
 
 .container_aviso {
     font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container_secundario {
+    align-items: center;
+    margin: 0 6em;
+    display: flex;
+}
+
+.img_plataforma {
+    width: 50%;
+}
+
+.container_descricao {
+    padding-left: 90px;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 44px;
+    color: var(--branco-principal);
+    margin-bottom: 10px;
+}
+
+.descricao_texto {
     color: var(--cinza-secundario);
 }
