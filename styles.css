@@ -57,6 +57,11 @@ body {
     margin-bottom: 16px;
 }
 
+.container_botao:hover {
+    background: var(--botao-hover);
+    color: var(--cor-de-fundo);
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
