@@ -9,6 +9,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --font-principal:'inter';
+    --botao-hover: #3c92fa;
 }
 
 body {
@@ -99,6 +100,7 @@ body {
 
 .dispositivos {
     text-align: center;
+    height: 90vh;
 }
 
 .dispositivos_lista {
@@ -116,4 +118,41 @@ body {
 .lista_item {
     font-size: 32px;
     color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin:  0 3em;
+}
+
+.rodape_logo {
+    margin-bottom:  2em;
+}
+
+.rodape_liste {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.lista_link {
+    align-items: center;
+}
+
+.lista_link a {
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--branco-principal);
+}
+
+.lista_link a:hover {
+    color: var(--botao-azul);
+}
+
+.rodape_texto {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2em;
+    color: var(--cinza-secundario);
 }
